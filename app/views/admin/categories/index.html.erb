@@ -1,0 +1,14 @@
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+  <% @categories.each do |category| %>
+    <p>
+    <strong>Name:</strong>
+    <%= category.name %>
+    </p>
+    <% end %>
+
+  </section>
